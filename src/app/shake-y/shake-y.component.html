@@ -1,0 +1,29 @@
+
+<h2 class="shakeY">Shake-Y Button Hover Effect</h2> 
+<button class="animate__animated shakeY"> Shake-Y </button><br><br>
+
+<h3 class="menu"style="padding: 10px;">CSS  <br><textarea cols="50" rows="20" style="font-size: 15px;">@keyframes shakeY
+    {
+        0%,to
+        {
+            transform: translateZ(0);
+        }
+        10%, 30%, 50%, 70%, 90% {
+           
+            transform: translate3d(0, -10px, 0);
+        }
+        20%, 40%, 60%, 80% {
+            
+            transform: translate3d(0, 10px, 0);
+        }
+    }
+    .shakeY:hover
+    {
+        animation:shakeY 1s;
+    }</textarea></h3>
+
+<h3 class="menu"style="padding: 10px;">HTML <br><textarea  cols="30" rows="5" style="font-size: 15px;"><button class="animate__animated shakeY"> Shake-Y </button> </textarea> </h3>
+
+
+
+

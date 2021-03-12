@@ -1,0 +1,38 @@
+
+<h2 class="swing">Swing Button Hover Effect</h2> 
+<button class="animate__animated swing ">Swing</button><br><br>
+
+<h3 class="menu"style="padding: 10px;">CSS  <br><textarea cols="50" rows="20" style="font-size: 15px;">@keyframes swing
+    {
+        20%{
+            transform: rotate(25deg);
+        }
+        40%
+        {
+            transform: rotate(-20deg);
+        }
+        60%
+        {
+            transform: rotate(15deg);
+        }
+        80%
+        {
+            transform: rotate(-5deg);
+        }
+        0%,to
+        {
+            transform: rotate(0deg);
+        }
+    }
+    .swing:hover
+    {
+        transform-origin: top center;
+        animation:swing 2s;
+    }
+</textarea></h3>
+
+<h3 class="menu"style="padding: 10px;">HTML <br><textarea  cols="30" rows="5" style="font-size: 15px;"><button class="animate__animated swing ">Swing</button> </textarea> </h3>
+
+
+
+
